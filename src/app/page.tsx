@@ -11,19 +11,18 @@ export default function Home() {
           <h1 className="text-white text-[9vw] max-sm:text-[13vw] underline decoration-[#CD7F32]">Delcio Pain</h1>
         </div>
         <div className="w-full h-fit border-l-4 border-[#CD7F32] flex flex-col gap-[1vw] max-sm:gap-[1.5vw] pl-[2vw] pb-[1vw]">
-          <h1 className="text-white text-[1.8vw] max-sm:text-[6vw]">Biografía</h1>
-          <span className="text-white text-[1.5vw] max-sm:text-[4vw]">Artista Independente que está navegando na vibe do Hip-Hop e Trap Soul cantando sempre sobre o seu cotidiano.</span>
+          <h1 className="text-white text-[1.8vw] max-sm:text-[5vw]">Biografía</h1>
+          <span className="text-white text-[1.5vw] max-sm:text-[3vw]">Artista Independente que está navegando na vibe do Hip-Hop e Trap Soul cantando sempre sobre o seu cotidiano.</span>
         </div>
         <div className="w-full h-fit border-l-4 border-[#CD7F32] flex flex-col gap-[1vw] max-sm:gap-[1.5vw] pl-[2vw] pb-[1vw]">
-          <h1 className="text-white text-[1.8vw] max-sm:text-[6vw]">Minhas Mideas Sociais</h1>
+          <h1 className="text-white text-[1.8vw] max-sm:text-[5vw]">Minhas Mideas Sociais</h1>
           <div className="grid-cols-3 max-sm:grid-cols-2 grid gap-[1vw] max-sm:gap-[3vw] w-full h-fit">
-            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial/></div>
-            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial/></div>
-            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial/></div>
-            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial/></div>
-            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial/></div>
-            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial/></div>
-            
+            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial nome="Spotify" logo="/assets/Spotify.png" links="https://open.spotify.com/artist/5erBqNwZ5aOgznp73drbmS?si=1hz5qnjXSIWLWNENwDmGoA" /></div>
+            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial nome="Sound Cloud" logo="/assets/SoundClound.png" links="https://on.soundcloud.com/MM8f5ArLineJ2EgN8" /></div>
+            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial nome="Facebook" logo="/assets/Facebook.png" links="https://www.facebook.com/profile.php?id=61550225032796" /></div>
+            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial nome="Youtube" logo="/assets/Youtube.png" links="https://youtube.com/@delciopain?si=SKr2-9tusVUTr74c" /></div>
+            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial nome="TikTok" logo="/assets/TikTok.png" links="/" /></div>
+            <div className="w-full h-[4vw] max-sm:h-[11vw] bg-[#cd7f32] relative"><LinkSocial nome="Instagram" logo="/assets/Instagram.png" links="https://www.instagram.com/delcio_pain44?igsh=NTc4MTIwNjQ2YQ==" /></div>
           </div>
         </div>
       </div>

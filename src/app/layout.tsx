@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className="bg-[#111111] w-screen h-screen max-h-screen overflow-hidden p-[2vw] max-sm:p-[8vw]">
+      <body className="bg-[#111111] w-screen h-screen max-h-screen overflow-hidden p-[2vw] max-sm:p-[8vw] max-sm:pb-[16vw]">
         {children}
       </body>
     </html>
